@@ -4,11 +4,11 @@ import ItemComponent from './ItemComponent';
 
 
 function InvoiceForm() {
-  var count = 0;
-  const addComponent = () => {
-  count++; 
-  console.log(count);
-  }
+  // var count = 0;
+  // const addComponent = () => {
+  // count++; 
+  // console.log(count);
+  // }
 
   return (
     <>
@@ -54,10 +54,12 @@ function InvoiceForm() {
           <span className="headers" id="a">Amount</span>
         </div>
         <div className="wrap" id="wrap">
-          <ItemComponent classNo={"component" + count}/>
+          {/* <ItemComponent classNo={"component" + count}/> */}
+          <ItemComponent/>
         </div>
 
-        <input type="button" value="+" id="addbtn" onClick={addComponent} />
+
+
         <div className="line">
           <div className="totals">
             <div className="wrap-total-labels">
