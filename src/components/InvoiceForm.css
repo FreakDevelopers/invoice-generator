@@ -1,0 +1,257 @@
+/* Fonts Import */
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+body {
+    background-color: whitesmoke;
+}
+
+input:focus,
+textarea:focus {
+    outline: none;
+}
+
+input,
+label {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/* Container start */
+.container {
+    min-height: 100vh;
+    background-color: rgb(231, 231, 225);
+    padding: 2rem;
+}
+
+.container h2 {
+    text-align: center;
+    font-size: 1.6rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Main start */
+.main {
+    max-width: 65rem;
+    margin: 2rem auto;
+        box-shadow: 0px 0px 20px #888888;
+
+}
+
+/* Customer Div start */
+.customer {
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    padding: 1.5rem;
+}
+
+.labels {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.labels label {
+    margin: 0.8rem 0rem;
+    padding: 0.4rem;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+}
+
+.inputs input {
+    margin: 0.8rem 0rem;
+    padding: 0.4rem;
+}
+
+#address-inputs {
+    max-width: 10rem;
+}
+
+/* Customer Div end */
+
+/* Desc Div starts */
+.desc {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+/* Head Div start */
+.head {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+    
+.headers {
+    padding: 0.7rem 1.5rem;
+}
+
+/* Head Div end */
+
+/* Wrap Div start */
+.wrap {
+    display: flex;
+    flex-direction: column;
+}
+/* Wrap Div end */
+
+/* line Div start */
+.line{
+    width: 100%;
+    border-top: 1px solid black;
+    padding: 2rem;
+}
+
+.totals{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    position: relative;
+    right: 2rem;
+}
+
+.wrap-total-labels{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-left: 2rem;
+}
+
+.wrap-total-labels label{
+    margin-bottom: 1rem;
+}
+
+/* Component Div start */
+.component {
+    display: flex;
+}
+
+.component input, textarea {
+    padding: 0.7rem 1rem;
+}
+
+.component .wrap-row input {
+    max-width: 6rem;
+    text-align: center;
+}
+
+.component .wrap-column input {
+    margin-bottom: 0.4rem;
+    width: 100%;
+}
+
+.wrap-column {
+    padding: 1rem;
+    max-width: 17rem;
+}
+
+.wrap-row {
+    padding: 1rem;
+    width: 100%;
+}
+
+.position1 {
+    position: relative;
+    left: 3rem;
+}
+
+.position2 {
+    position: relative;
+    left: 11.5rem;
+}
+
+.position3 {
+    position: relative;
+    left: 21rem;
+}
+
+.wrap-row .deletebtn {
+    position: relative;
+    top: 0rem;
+    right: -361px;
+    padding: 0rem;
+    height: 2rem;
+    width: 2rem;
+    font-weight: bolder;
+    font-size: 1rem;
+    background-color: rgb(61, 57, 57);
+    color: whitesmoke;
+    border-radius: 4px;
+}
+
+.deletebtn:hover {
+    color: rgb(61, 57, 57);
+    background-color: whitesmoke;
+}
+
+/* Component Div end */
+
+#addbtn {
+    margin: 1rem;
+    font-weight: bolder;
+    font-size: 2rem;
+    max-width: 3rem;
+    background-color: rgb(61, 57, 57);
+    color: whitesmoke;
+    border-radius: 3px;
+}
+
+#addbtn:hover {
+    color: rgb(61, 57, 57);
+    background-color: whitesmoke;
+}
+
+/* Desc Div ends */
+
+/* Note start */
+.note {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.note label {
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+}
+
+.note textarea {
+    resize: none;
+}
+
+/* Note end */
+
+/* Main Button */
+.mainbtn {
+    padding: 0.6em;
+    border-radius: 3px;
+    color: whitesmoke;
+    background-color: rgb(61, 57, 57);
+}
+
+.mainbtn:hover {
+    color: rgb(61, 57, 57);
+    background-color: #fefefe;
+}
+
+/* Main Button */
+
+/* Main end */
+
+/* lastbtn Div start */
+.lastbtn{
+    max-width: 65rem;
+    margin: 2rem auto;
+}
+/* lastbtn Div end */
+
+/* Container end */
